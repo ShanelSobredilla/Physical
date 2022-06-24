@@ -1,0 +1,551 @@
+@font-face {
+    font-family: MadeTommy-Regular;
+    src: url(fonts/MADETOMMY-Regular.otf);
+}
+
+@font-face {
+    font-family: MadeTommy-Medium;
+    src: url(fonts/MADETOMMY-Medium.otf);
+}
+
+body {
+    margin: 0;
+}
+
+.box {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /*border: 1px solid red*/
+}
+
+.logo {
+    width: 45%;
+    margin-left: 25%;
+}
+
+nav {
+    width: 100%;
+    padding: 30px 0;
+    color: #313131;
+    background: white;
+}
+
+nav .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color:#626262;
+    margin-left: -15%;
+}
+
+nav a:hover {
+    color:#0023A3
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+}
+
+nav li {
+    font-family: MadeTommy-Medium;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 40px;
+}
+
+.dropdown {
+    width: 40%
+}
+
+.mobile-menu {
+    display: none
+}
+
+h1 {
+    font-family: MadeTommy-Medium;
+    font-size: 42px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.header {
+    padding: 100px 0 50px;
+    background-image: url(imgs/about-image.jpg);
+    background-size: cover;
+    height: 60vh;
+    background-position: 50%;
+    color: white;
+    display: flex;
+}
+
+.header .box {
+    display: flex;
+    justify-content: center;
+}
+
+.header-text {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.service {
+    color: #FDCB0B;
+}
+
+.attractiveness {
+    color:#0023A3
+}
+
+.about {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-title {
+    display: flex;
+    flex-direction: row;
+    font-family: MadeTommy-Medium;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.physical {
+    color:#FDCB0B;
+    margin-left: 5%;
+}
+
+.about-description {
+    font-family: MadeTommy-Regular;
+    font-size: 16px;
+    margin-right: 5%;
+    margin-left: 15%;
+    line-height: 180%;
+}
+
+.header2 {
+    padding: 100px 0 50px;
+    background-image: url(imgs/place-image.jpeg);
+    background-size: cover;
+    height: 40vh;
+    background-position: 50%;
+    color: white;
+    display: flex;
+}
+
+.about2 {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.recognition-title {
+    display: flex;
+    flex-direction: row;
+    font-family: MadeTommy-Medium;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+.recognition {
+    color:#0023A3;
+    margin-left: 2%;
+}
+
+.recognition-1, .recognition-2, .recognition-3, .recognition-4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+
+}
+
+.recog1-image, .recog2-image, .recog3-image, .recog4-image {
+    width: 40%;
+}
+
+.recog1-text, .recog3-text {
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.recog2-text, .recog4-text{
+    margin-left: 0%;
+}
+
+
+.recog1-title, .recog2-title, .recog3-title, 
+.recog4-title {
+    font-family: MadeTommy-Medium;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+footer {
+    background-color: #313131;
+    padding: 2%;
+}
+
+.footer {
+    background-color: #313131;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-white {
+    width: 25%;
+}
+
+.fb, .insta, .wechat {
+    width: 30px;
+}
+
+@media (max-width: 820px) {
+    .box {
+        width: 75%
+    }
+
+    .logo {
+        margin-left: 15%;
+    }
+
+    .mobile-menu {
+        display: block;
+        color: #313131;
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: none
+
+    }
+
+    h1 {
+        font-family: MadeTommy-Medium;
+        font-size: 30px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+    
+    .header {
+        padding: 100px 0 50px;
+        background-image: url(imgs/about-image.jpg);
+        background-size: cover;
+        height: 60vh;
+        background-position: 50%;
+        color: white;
+        display: flex;
+    }
+    
+    .header .box {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .header-text {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .service {
+        color: #FDCB0B;
+    }
+    
+    .attractiveness {
+        color:#0023A3
+    }
+    
+    .about {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .about-text {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .about-title {
+        display: flex;
+        flex-direction: row;
+        font-family: MadeTommy-Medium;
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    
+    .physical {
+        color:#FDCB0B;
+        margin-left: 5%;
+    }
+    
+    .about-description {
+        font-family: MadeTommy-Regular;
+        font-size: 14px;
+        margin-right: 5%;
+        margin-left: 15%;
+        line-height: 180%;
+    }
+    
+    .header2 {
+        padding: 100px 0 50px;
+        background-image: url(imgs/place-image.jpeg);
+        background-size: cover;
+        height: 40vh;
+        background-position: 40%;
+        color: white;
+        display: flex;
+    }
+    
+    .about2 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+    .recognition-title {
+        display: flex;
+        flex-direction: row;
+        font-family: MadeTommy-Medium;
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    
+    .recognition {
+        color:#0023A3;
+        margin-left: 2%;
+    }
+    
+    .recognition-1, .recognition-2, .recognition-3, .recognition-4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    
+    }
+    
+    .recog1-image, .recog2-image, .recog3-image, .recog4-image {
+        width: 40%;
+    }
+    
+    .recog1-text, .recog3-text {
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .recog2-text, .recog4-text{
+        margin-left: 0%;
+    }
+    
+    
+    .recog1-title, .recog2-title, .recog3-title, 
+    .recog4-title {
+        font-family: MadeTommy-Medium;
+        font-size: 16px;
+        letter-spacing: 3px;
+    }
+    
+    footer {
+        background-color: #313131;
+        padding: 2%;
+    }
+    
+    .footer {
+        background-color: #313131;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo-white {
+        width: 25%;
+    }
+    
+    .fb, .insta, .wechat {
+        width: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .box {
+        width: 75%
+    }
+
+    .logo {
+        margin-left: 15%;
+    }
+
+    .mobile-menu {
+        display: block;
+        color: #313131;
+        font-size: 20px;
+    }
+
+    nav ul {
+        display: none
+
+    }
+    
+    h1 {
+        font-family: MadeTommy-Medium;
+        font-size: 22px;
+        letter-spacing: 8px;
+        text-transform: uppercase;
+    }
+    
+    .header {
+        padding: 100px 0 50px;
+        background-image: url(imgs/about-image.jpg);
+        background-size: cover;
+        height: 40vh;
+        background-position: top;
+        color: white;
+        display: flex;
+    }
+    
+    .header .box {
+        display: flex;
+        justify-content: center ;
+    }
+    
+    .header-text {
+        list-style: none;
+        display: flex;
+        justify-content: center ;
+    }
+    
+    .service {
+        color: #FDCB0B;
+    }
+    
+    .attractiveness {
+        color:#0023A3
+    }
+    
+    .about {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    
+    .about-text {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .about-title {
+        display: flex;
+        flex-direction: row;
+        font-family: MadeTommy-Medium;
+        font-size: 22px;
+        letter-spacing: 3px;
+    }
+    
+    .physical {
+        color:#FDCB0B;
+        margin-left: 3%;
+    }
+    
+    .about-description {
+        font-family: MadeTommy-Regular;
+        font-size: 14px;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-left: 0%;
+        line-height: 180%;
+    }
+    
+    .header2 {
+        padding: 100px 0 50px;
+        background-image: url(imgs/place-image.jpeg);
+        background-size: cover;
+        height: 40vh;
+        background-position: 40%;
+        color: white;
+        display: flex;
+    }
+    
+    .about2 {
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+    .recognition-title {
+        display: flex;
+        flex-direction: row;
+        font-family: MadeTommy-Medium;
+        font-size: 18px;
+        letter-spacing: 3px;
+        margin-left: -5%;
+    }
+    
+    .recognition {
+        color:#0023A3;
+        margin-left: 2%;
+    }
+    
+    .recognition-1, .recognition-2, .recognition-3, .recognition-4 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    
+    }
+    
+    .recog1-image, .recog2-image, .recog3-image, .recog4-image {
+        width: 40%;
+    }
+    
+    .recog1-text, .recog3-text {
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+    
+    .recog2-text, .recog4-text{
+        margin-left: 1%;
+    }
+    
+    
+    .recog1-title, .recog2-title, .recog3-title, 
+    .recog4-title {
+        font-family: MadeTommy-Medium;
+        font-size: 9px;
+        letter-spacing: 2px;
+    }
+    
+    footer {
+        background-color: #313131;
+        padding: 2%;
+    }
+    
+    .footer {
+        background-color: #313131;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .logo-white {
+        width: 25%;
+    }
+    
+    .fb, .insta, .wechat {
+        width: 30px;
+    }
+}
